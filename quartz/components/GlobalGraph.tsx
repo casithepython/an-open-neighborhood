@@ -21,7 +21,7 @@ globalGraph: {
     fontSize: 0.6,
     opacityScale: 1,
     showTags: true,
-    removeTags: ["topology"],
+    removeTags: [],
     focusOnHover: true,
     h:750,
   },
