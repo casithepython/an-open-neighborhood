@@ -1,5 +1,5 @@
 name: Deploy Quartz site to GitHub Pages
- 
+
 on:
   push:
     branches:
@@ -43,3 +43,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
+        
