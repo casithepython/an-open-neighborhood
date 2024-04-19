@@ -5,20 +5,20 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
-    },
-  }),
+  footer: Component.Footer(
+    //{
+    //links: {
+    //  GitHub: "https://github.com/jackyzha0/quartz",
+    //  "Discord Community": "https://discord.gg/cRFFHYye7t",
+    //},
+  //}
+),
 }
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [
@@ -42,7 +42,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
+    //Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],

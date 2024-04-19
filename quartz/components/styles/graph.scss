@@ -67,4 +67,16 @@
       }
     }
   }
+
+  & > .homepage-graph-outer {
+      border-radius: 5px;
+      border: 1px solid var(--lightgray);
+      box-sizing: border-box;
+      height: 80vh;
+      margin: 0.5em 0;
+      position: relative;
+      overflow: hidden;
+  }
+
+
 }

@@ -7,6 +7,10 @@ export interface ColorScheme {
   secondary: string
   tertiary: string
   highlight: string
+  current: string
+  visited: string
+  unvisited: string
+  graphlines: string
 }
 
 interface Colors {
@@ -49,6 +53,10 @@ ${stylesheet.join("\n\n")}
   --secondary: ${theme.colors.lightMode.secondary};
   --tertiary: ${theme.colors.lightMode.tertiary};
   --highlight: ${theme.colors.lightMode.highlight};
+  --current: ${theme.colors.lightMode.current};
+  --visited: ${theme.colors.lightMode.visited};
+  --unvisited: ${theme.colors.lightMode.unvisited};
+  --graphlines: ${theme.colors.lightMode.graphlines};
 
   --headerFont: "${theme.typography.header}", ${DEFAULT_SANS_SERIF};
   --bodyFont: "${theme.typography.body}", ${DEFAULT_SANS_SERIF};
@@ -64,6 +72,10 @@ ${stylesheet.join("\n\n")}
   --secondary: ${theme.colors.darkMode.secondary};
   --tertiary: ${theme.colors.darkMode.tertiary};
   --highlight: ${theme.colors.darkMode.highlight};
+  --current: ${theme.colors.darkMode.current};
+  --visited: ${theme.colors.darkMode.visited};
+  --unvisited: ${theme.colors.darkMode.unvisited};
+  --graphlines: ${theme.colors.darkMode.graphlines};
 }
 `
 }
