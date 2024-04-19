@@ -6,3 +6,4 @@
 >[!def] Definition of a connected subset
 > Let $X$ be a topological space. A subset $A \subseteq X$ is *connected* if it is not disconnected.
 
+#topology #connectedness #definition

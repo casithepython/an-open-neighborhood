@@ -17,3 +17,4 @@
 
 ^db494d
 
+#topology #compactness #definition

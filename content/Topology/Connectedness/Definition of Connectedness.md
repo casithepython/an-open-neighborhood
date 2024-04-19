@@ -3,3 +3,5 @@
 
 >[!def] Definition of a connected space
 >Let $X$ be a topological space. $X$ is connected if it is not disconnected.
+
+#topology #connectedness #definition 
