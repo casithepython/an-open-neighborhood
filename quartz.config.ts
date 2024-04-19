@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "An 🍩pen Neighborhood",
+    pageTitle: "An Open Neighborhood",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
@@ -37,19 +37,21 @@ const config: QuartzConfig = {
           current:"#284b63",
           visited:"#84a59d",
           unvisited:"#b8b8b8",
+          graphlines:"#e5e5e5"
         },
         darkMode: {
-          light: "rgb(21 21 25", // background
-          lightgray: "rgb(30 30 35)", // borders
+          light: "rgb(21, 21, 25)", // background
+          lightgray: "rgb(30, 30, 35)", // borders
           gray: "rgb(177, 179, 188)", // graph links, heavier borders
           darkgray: "rgb(177, 179, 188)", // body text
           dark: "rgb(249, 250, 253)", //header text and icons
           secondary: "rgb(100, 131, 240)", // link color
-          tertiary: "rgb(100, 131, 240)", // hover states
+          tertiary: "rgb(249, 250, 253)", // hover states
           highlight: "rgba(100, 131, 240, 0.15)",
           current:"rgb(100, 131, 240)",
           visited:"rgb(249, 250, 253)",
           unvisited:"rgb(249, 250, 253)",
+          graphlines: "rgb(177, 179, 188)",
         },
       },
     },

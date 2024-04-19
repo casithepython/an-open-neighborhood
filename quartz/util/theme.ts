@@ -10,6 +10,7 @@ export interface ColorScheme {
   current: string
   visited: string
   unvisited: string
+  graphlines: string
 }
 
 interface Colors {
@@ -55,6 +56,7 @@ ${stylesheet.join("\n\n")}
   --current: ${theme.colors.lightMode.current};
   --visited: ${theme.colors.lightMode.visited};
   --unvisited: ${theme.colors.lightMode.unvisited};
+  --graphlines: ${theme.colors.lightMode.graphlines};
 
   --headerFont: "${theme.typography.header}", ${DEFAULT_SANS_SERIF};
   --bodyFont: "${theme.typography.body}", ${DEFAULT_SANS_SERIF};
@@ -73,6 +75,7 @@ ${stylesheet.join("\n\n")}
   --current: ${theme.colors.darkMode.current};
   --visited: ${theme.colors.darkMode.visited};
   --unvisited: ${theme.colors.darkMode.unvisited};
+  --graphlines: ${theme.colors.darkMode.graphlines};
 }
 `
 }

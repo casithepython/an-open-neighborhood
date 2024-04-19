@@ -142,7 +142,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     .data(graphData.links)
     .join("line")
     .attr("class", "link")
-    .attr("stroke", "var(--lightgray)")
+    .attr("stroke", "var(--graphlines)")
     .attr("stroke-width", 1)
 
   // svg groups
@@ -227,7 +227,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       }
 
       // highlight links
-      linkNodes.transition().duration(200).attr("stroke", "var(--gray)").attr("stroke-width", 1)
+      linkNodes.transition().duration(200).attr("stroke", "var(--dark)").attr("stroke-width", 1)
 
       const bigFont = fontSize * 1.5
 
@@ -252,7 +252,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
         .selectAll(".link")
         .filter((d: any) => d.source.id === currentId || d.target.id === currentId)
 
-      linkNodes.transition().duration(200).attr("stroke", "var(--lightgray)")
+      linkNodes.transition().duration(200).attr("stroke", "var(--graphlines)")
 
       const parent = this.parentNode as HTMLElement
       d3.select<HTMLElement, NodeData>(parent)
