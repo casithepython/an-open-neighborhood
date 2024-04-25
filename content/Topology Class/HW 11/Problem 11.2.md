@@ -26,3 +26,5 @@ We let $d : \mathbb{R}^2 \mapsto \mathbb{R}$ be the standard metric on $\mathbb{
 
 However, for all $(x,y) \in \mathbb{R}^2$, we have $B_{V}\left((x,y), \frac{1}{2} \right) = \{(a,b) \mid (a,b) \in \mathbb{R}^2, a = x, |b-y| < \frac{1}{2}\}$. The elements of this set all share the same first value. On the other hand, for all $(p,q) \in \mathbb{R}^2,\epsilon>0$, we must have $\left( p,q \right),\left( p+ \frac{\epsilon}{2} , q\right) \in B((p,q),\epsilon)$, so any basis element of the topology induced by the standard basis must contain elements of differing first values. Therefore, there cannot exist a basis element $B \in T_{S}$ such that $(x,y) \in B \subseteq B_{V}\left( (x,y), \frac{1}{2} \right)$, so $T_{V} \not \subseteq T_{S}$ and $T_{V} \neq T_{S}$.
 `QED`
+
+#homework

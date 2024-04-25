@@ -15,3 +15,4 @@ Let $a \in Y$ and $B \subseteq Y$ where $B$ is closed and $a \not\in B$. Since $
 `PROOF`@[[#^23]]
 Let $A,B$ closed in $Y$. Since $X$ is normal and $f^{-1}(A),f^{-1}(B)$ are closed by [[Pre-image of closed set is closed under cts function#^22]], $\exists U,V$ open in $X$ such that $U \cap V = \phi$, ${} f^{-1}(A) \subseteq U$, and $f^{-1}(B) \subseteq V$. Then, ${} A \subseteq f(U) {}$ and $B \subseteq f(V)$. Since $f^{-1}$ is [[Definition of Continuity#^e5d9a1|continuous]], $f^{-1^{-1}}(U) = f(U)$ and $f^{-1^{-1}}(V) = f(V)$ are both open in $Y$, so $Y$ is normal.
 `QED`
+#homework

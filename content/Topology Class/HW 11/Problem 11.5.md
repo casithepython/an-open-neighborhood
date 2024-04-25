@@ -13,3 +13,5 @@ Assume $\exists A,B$ closed in $X$ such that $\text{inf}(d(a,b) \mid a \in A, b 
 `PROOF`@[[#^309e34]]
 Let $A,B \subseteq X$ be closed such that $A \cap B = \phi$. We see that $U = X \setminus A, V = X \setminus B$ are open. A
 `QED`
+
+#homework 

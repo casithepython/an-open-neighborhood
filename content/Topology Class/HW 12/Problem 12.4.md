@@ -9,3 +9,5 @@ Now, for any $n \in \mathbb{N}$, we show that either $A_{i} \subseteq U$ or $A_{
 
 Without loss of generality, let $A_{1} \subseteq U$. Assume for the sake of contradiction that $\exists n \in \mathbb{N}$ such that $A_{n} \subseteq U$ but ${} A_{n+1} \not\subseteq U$, so $A_{n+1} \subseteq V$ by the previous paragraph. However, then ${} A_{n} \cap A_{n+1} \subseteq U \cap V = \phi$, but $A_{n} \cap A_{n+1} \neq \phi$ by assumption. $\Longrightarrow\Longleftarrow$, so $A_{n+1} \subseteq V$. Thus, by the principle of mathematical induction, $A_{n} \subseteq U$ for all $n \in \mathbb{N}$. Then, $\left(\displaystyle\bigcup_{i\in N}A_{i} \right) \cap V \subseteq U \cap V = \phi$, but we must have $\left(\displaystyle\bigcup_{i\in N}A_{i}\right) \cap V \neq \phi$ by [[Definition of Connected Subset#^c7e81f]]. $\Longrightarrow\Longleftarrow$, so $\displaystyle\bigcup_{i\in N}A_{i}$ is connected in $X$.
 `QED`
+
+#homework

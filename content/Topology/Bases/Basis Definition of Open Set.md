@@ -5,6 +5,6 @@
 
 `PROOF`@[[#^5e74cb]]
 Clearly if $\forall x \in U$, $\exists B \in \mathcal{B}$ such that $x \in B \subseteq U$, $U$ is a union of basis elements and thus open by [[Definition of a Basis#^f45567]]. If $U$ is open, it is a union of basis elements, and at least one of those basis elements must contain $x$ in order for their union to equal $U$.
-`QED`
+`QED` ^e215bc
 
-#topology #bases #definition
+#topology 

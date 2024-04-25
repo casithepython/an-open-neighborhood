@@ -17,3 +17,5 @@ Let $x,y,z \in Y$. We see that $d_{Y}(x,z) = d(x,z) \leq d(x,y) + d(y,z) = d_{Y}
 Let $T_{S}$ be the subspace topology on $Y$, and let $T_{d}$ be the topology induced by $d_{Y}$. By [[Definition of Metric Space#^65cd3c]], $\mathcal{B} = \{B_{d}(p,\epsilon) \mid p \in X, \epsilon>0\}$ is a basis for $(X,d)$, and so $\mathcal{B}_{S} = \{B_{d}(p,\epsilon) \cap Y \mid p \in X, \epsilon > 0\}$ is a basis for $T_{S}$ by [[Basis for Subspace Topology#^c65445]]. Additionally, by [[Definition of Metric Space#^65cd3c]], we see that ${} \mathcal{B}_{Y} = \{B_{d_{Y}}(p,\epsilon) \mid p \in Y, \epsilon>0\} {}$ is a basis for $T_{Y}$.
 
 Let $p \in Y \subseteq X, \epsilon > 0$. We see that $\forall a \in B_{d_{Y}}(p,\epsilon)$, $d_{Y}(a,p) = d(a,p) < \epsilon$, so because ${} a,p \in Y {}$, $a \in B_{d}(p,\epsilon) \cap Y$. Also, ${} \forall b \in B_{d}(p,\epsilon) \cap Y$, $b \in Y$ and $d(p,b) = d_{Y}(p,b) < \epsilon$, meaning that  $b \in B_{d_{Y}}(p,\epsilon)$ and $B_{d}(p,\epsilon) \subseteq B_{d_{Y}}(p,\epsilon)$. Thus, $B_{d}(p,\epsilon) = B_{d_{Y}}(p,\epsilon)$, so $\mathcal{B}_{S} = \mathcal{B}_{Y}$, which means that $T_{S} = T_{Y}$.
+
+#homework

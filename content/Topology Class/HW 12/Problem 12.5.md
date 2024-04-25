@@ -5,3 +5,5 @@ Find a topology on the the set $X = \{a, b, c\}$ such that there exists a discon
 >
 >Furthermore, the only pairs of open sets $U,V \in T$ such that $\{a,c\} \subseteq U \cup V$ are $\{\{a,b\},\{b,c\}\}$, $\{\{a,b\},\{a,b,c\}\}$, and $\{\{b,c\},\{a,b,c\}\}$, all of which have nonempty intersection. Thus, $\{a,c\}$ fulfills our condition.
 
+
+#homework
