@@ -4,7 +4,7 @@
 \end{align}$$ ^6d876b
 
 `PROOF`@[[#^6d876b]]
-This holds by the definition of matrix multiplication. Specifically, it is due to [[Matrix of Product of Linear Maps#^abb3ff]].
+This holds by the definition of matrix multiplication. Specifically, it is due to [[matrix of product of linear maps#^abb3ff]].
 `QED`
 > [!lem] Matrix of identity operator with respect to two bases
 > Suppose that $u_{1},\dots,u_{n}$ and $v_{1},\dots,v_{n}$ are bases of $V$. Then the matrices $\mathcal{M}(I,(u_{1},\dots,u_{n}),(v_{1},\dots,v_{n}))$ and $\mathcal{M}(I,(v_{1},\dots,v_{n}),(u_{1},\dots,u_{n}))$ are invertible, and each is the inverse of the other. ^4e4538
@@ -20,10 +20,10 @@ In [[#^6d876b|Theorem 1]], replace $w_{k}$ with $u_{k}$. Then, $\mathcal{M}(I,(u
 > Suppose $T \in \mathcal{L}(V)$. Suppose $u_{1},\dots,u_{n}$ and $v_{1},\dots,v_{n}$ are bases of $V$. Let $A = \mathcal{M}(T,(u_{1},\dots,u_{n}),(u_{1},\dots,u_{n}))$, $B = \mathcal{M}(T,(v_{1},\dots,v_{n}),(v_{1},\dots,v_{n}))$, and $C = \mathcal{M}(I,(u_{1},\dots,u_{n}),(v_{1},\dots,v_{n}))$. Then $A = C^{-1}BC$. ^fdc7d3
 
 `PROOF`@[[#^fdc7d3]]
-In [[Changing bases#^6d876b|Theorem 1]], replace $w_{k}$ with $u_{k}$ and replace $S$ with $I$, so $$\begin{align}
+In [[changing bases#^6d876b|Theorem 1]], replace $w_{k}$ with $u_{k}$ and replace $S$ with $I$, so $$\begin{align}
 A &= \mathcal{M}(T,(u_{1},\dots,u_{m}),(u_{1},\dots,u_{m}))\\ &=\mathcal{M}(I,(v_{1},\dots,v_{n}),(u_{1},\dots,u_{m}))\mathcal{M}(T,(u_{1},\dots,u_{m}),(v_{1},\dots,v_{n})) \\
 &= C^{-1}\mathcal{M}(T,(u_{1},\dots,u_{m}),(v_{1},\dots,v_{n})),
-\end{align}$$ where $\mathcal{M}(I,(v_{1},\dots,v_{n}),(u_{1},\dots,u_{m})) = C^{-1}$ by [[#^4e4538|Lemma 2]]. Now, again in [[Changing bases#^6d876b|Theorem 1]], replace $w_{k}$ with $v_{k}$, replace $T$ with $I$, and replace $S$ with $T$. Then, using the above equation, we have $$\begin{align}
+\end{align}$$ where $\mathcal{M}(I,(v_{1},\dots,v_{n}),(u_{1},\dots,u_{m})) = C^{-1}$ by [[#^4e4538|Lemma 2]]. Now, again in [[changing bases#^6d876b|Theorem 1]], replace $w_{k}$ with $v_{k}$, replace $T$ with $I$, and replace $S$ with $T$. Then, using the above equation, we have $$\begin{align}
 A &= C^{-1}\mathcal{M}(T,(u_{1},\dots,u_{m}),(v_{1},\dots,v_{n})) \\
 &= C^{-1}\mathcal{M}(T,(v_{1},\dots,v_{n}),(v_{1},\dots,v_{n}))\mathcal{M}(I,(u_{1},\dots,u_{m}),(v_{1},\dots,v_{n})) \\
 &= C^{-1}BC.
@@ -33,5 +33,7 @@ A &= C^{-1}\mathcal{M}(T,(u_{1},\dots,u_{m}),(v_{1},\dots,v_{n})) \\
 > Suppose that $v_{1},\dots,v_{n}$ is a basis of $V$ and $T \in \mathcal{L}(V)$ is invertible. Then, $\mathcal{M}(T^{-1}) = (\mathcal{M}(T))^{-1}$, where both matrices are with respect to the basis $v_{1},\dots,v_{n}$. ^69004d
 
 `PROOF`@[[#^69004d]]
-By [[Matrix of Product of Linear Maps#^abb3ff]], we see that $\mathcal{M}(T^{-1})\mathcal{M}(T) = \mathcal{M}(T^{-1}T) = \mathcal{M}(I) = \mathcal{M}(TT^{-1}) = \mathcal{M}(T)\mathcal{M}(T^{-1})$. Thus, $\mathcal{M}(T^{-1})$ is the inverse of $\mathcal{M}(T)$, so it is equal to $(\mathcal{M}(T))^{-1}$.
+By [[matrix of product of linear maps#^abb3ff]], we see that $\mathcal{M}(T^{-1})\mathcal{M}(T) = \mathcal{M}(T^{-1}T) = \mathcal{M}(I) = \mathcal{M}(TT^{-1}) = \mathcal{M}(T)\mathcal{M}(T^{-1})$. Thus, $\mathcal{M}(T^{-1})$ is the inverse of $\mathcal{M}(T)$, so it is equal to $(\mathcal{M}(T))^{-1}$.
 `QED`
+
+#linearalgebra

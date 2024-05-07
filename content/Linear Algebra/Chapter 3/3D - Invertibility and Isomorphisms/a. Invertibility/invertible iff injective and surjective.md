@@ -1,5 +1,5 @@
 > [!thm] Linear maps are invertible if and only if they are injective and surjective
-> Let $T \in \mathcal{L}(V,W)$. $T$ is [[Definitions of Invertibility#^f92838|invertible]] if and only if it is [[Injectivity and Surjectivity#^injective|injective]] and [[Injectivity and Surjectivity#^surjective|surjective]]. ^da1555
+> Let $T \in \mathcal{L}(V,W)$. $T$ is [[definitions of invertibility#^f92838|invertible]] if and only if it is [[injectivity and surjectivity#^injective|injective]] and [[injectivity and surjectivity#^surjective|surjective]]. ^da1555
 
 `PROOF`@[[#^da1555]]
 Suppose $T$ is invertible. Suppose $u,v \in V$ such that $Tu = Tv$. Then, $u = T^{-1}Tu = T^{-1}Tv = v$, so $T$ is injective. Now, suppose $w \in W$. We have $T^{-1}w \in V$ and $TT^{-1}w = w$, so $T$ is surjective.

@@ -14,3 +14,6 @@
 > - If $U = \{(x,2x) \in \mathbb{R}^2 : x \in \mathbb{R}\}$, the line through the origin of slope 2, then $\mathbb{R}^2 / U$ is the set of all lines in $\mathbb{R}^2$ that have slope $2$.
 > - If $U$ is a line in $\mathbb{R}^3$, then ${} \mathbb{R}^3 / {U} {}$ is the set of all lines in $\mathbb{R}^3$ parallel to $U$.
 > - If $U$ is a plane in $\mathbb{R}^4$, then $\mathbb{R}^4 / U$ is the set of all planes in $\mathbb{R}^4$ parallel to $U$.
+
+
+#linearalgebra

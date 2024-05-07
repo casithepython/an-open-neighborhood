@@ -6,3 +6,5 @@ Assume $v-w \in U$. If $u \in U$, $v + u = w + ((v-w) + u) \in w + U$, so $v + U
 
 Now suppose $(v+U) \cap (w+U) \neq \phi$. Then $\exists u_{1},u_{2} \in U$ such that $v + u_{1} = w + u_{2}$, so $v-w = u_{2}-u_{1} \in U$. This completes the proof.
 `QED`
+
+#linearalgebra

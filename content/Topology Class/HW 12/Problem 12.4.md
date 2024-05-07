@@ -1,6 +1,6 @@
 Let $X$ be a topological space, and suppose that $\{A_{i}\}_{i∈\mathbb{N}}$ is a collection of connected subsets of $X$ such that $A_{i} \cap A_{i+1} \neq \phi$ for all $i \in \mathbb{N}$. Prove that $\displaystyle\bigcup_{i\in N}A_{i}$ is connected.
 >[!thm]
->Let $X$ be a topological space, and suppose that $\{A_{i}\}_{i∈\mathbb{N}}$ is a collection of connected subsets of $X$ such that $A_{i} \cap A_{i+1} \neq \phi$ for all $i \in \mathbb{N}$. $\displaystyle\bigcup_{i\in N}A_{i}$ is connected. ^cfc123
+>Let $X$ be a topological space, and suppose that $\{A_{i}\}_{i∈\mathbb{N}}$ is a collection of connected subsets of $X$ such that $A_{i} \cap A_{i+1} \neq \phi$ for all $i \in \mathbb{N}$. $\displaystyle\bigcup_{i\in N}A_{i}$ is [[Definition of Connected Subset#^4db735|connected]]. ^cfc123
 
 `PROOF`@[[#^cfc123]]
 Assume $\displaystyle\bigcup_{i\in N}A_{i}$ is disconnected, so there exist $U,V$ open and nonempty in $X$ such that $U \cap V = \phi$ and $U \cup V = \displaystyle\bigcup_{i\in N}A_{i}$. 

@@ -13,3 +13,5 @@
 `PROOF`@[[#^6cfccb]]
 Choose a basis of each $V_{k}$. For each basis vector $v_{k,j}$ of each $V_{k}$, consider the element of $V_{1} \times \dots \times V_{k}$ that contains $v_{k,j}$ in the $k$th slot and has $0$s everywhere else. The list of all such vectors is linearly independent and spans $V_{1} \times \dots \times V_{m}$, so it is a basis for that space. We can see its length is $\dim V_{1} + \dots + \dim V_{m}$.
 `QED`
+
+#linearalgebra

@@ -13,3 +13,5 @@ Similarly, suppose $\lambda \in \mathcal{F}, v_{1},v_{2} \in V$ such that $v_{1}
 
 Now that addition and scalar multiplication are defined on $V / U$, the verification of the vector space operations is straightforward (deriving from that fact that we are effectively adjoining the vector space $V$ to a common subspace $U$). $V / U$ is a vector space.
 `QED`
+
+#linearalgebra

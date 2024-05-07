@@ -10,4 +10,4 @@ Let $\mathcal{B}_{Y}$ be the standard basis of the topology induced by $d^*$ on 
 
 Therefore, $B_{d}(f^{-1}(p),\epsilon) = f^{-1}(B_{d^*}(p,\epsilon))$, which also means that $f(B_{d}(f^{-1}(p),\epsilon)) = B_{d^*}(p,\epsilon)$.
 
-#topology #metrics
+#topology 

@@ -6,5 +6,3 @@
 >4. $d(x,z) \leq d(x,y) + d(y,z)$ (Triangle Inequality)
 
 ^d80508
-
-#metrics 
